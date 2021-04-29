@@ -1,18 +1,18 @@
-import React from 'react'
+// import React from 'react'
 import Header from './components/Header'
 
-// function App() {
-//   const name = 'Brad'
-//   return (
-//     <div className="container">
-//       <Header />
-//     </div>
-//   );
-// }
-
-class App extends React.Component {
-  render() {
-    return <h1>Hello from a class</h1>
-  }
+function App() {
+  const name = 'Brad'
+  return (
+    <div className="container">
+      <Header title='Hello'/>
+    </div>
+  );
 }
+
+// class App extends React.Component {
+//   render() {
+//     return <h1>Hello from a class</h1>
+//   }
+// }
 export default App;
